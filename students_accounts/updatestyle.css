@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(192, 194, 199) ;
+    position: relative;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+a{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 110px;
+    right: 10px;
+    text-decoration: none;
+    border: solid 2px ;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+a:hover{
+    background-color: black;
+    cursor: pointer;
+    font-weight: bold;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 130px;
+    transition-duration: 0.6s;
+	transition-property: all;
+    transition-timing-function: line;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    align-items: center;
+    column-gap: 20px;
+    
+}
+.photo{
+    
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+    
+}
+img{
+    display: block;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 3px solid black;
+    width: 150px;
+    height: 150px;
+}
+img:hover{
+    
+    border-radius: 35px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+	transition-property: all;
+    transition-timing-function: line;
+
+}
+input[type="submit"]{
+    
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 100px;
+    border-radius: 20px;
+}
+input[type="submit"]:hover{
+    
+    background-color: black;
+    cursor: pointer;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition-duration: 0.6s;
+	transition-property: all;
+    transition-timing-function: line;
+}
+
+input.text{
+    max-width: 300px;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;  
+    border-radius: 10px;
+}
+input.text:hover{
+    max-width: 320px;
+    border: solid 4px black;
+    transition-duration: 0.6s;
+	transition-property: all;
+    transition-timing-function: line;
+}
+p{
+    font-weight: bold;
+}

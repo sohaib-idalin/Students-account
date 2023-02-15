@@ -1,0 +1,135 @@
+p.ensat
+{
+    margin-top: 40px ;
+    font-size: 40px ;
+    font-family: cursive;
+    color:darkgoldenrod ;
+    text-transform: uppercase;
+    width: 400px;
+}
+.ensat:hover{
+    font-family: cursive;
+    border: dotted 3px rgb(180, 27, 0);
+    border-radius: 15px;
+    background-color: black;
+    transition-duration: 0.6s;
+	transition-property: all;
+    transition-timing-function: line;
+
+
+
+}
+body
+{
+    position: relative;
+    background-color: rgb(192, 194, 199) ;
+}
+
+.nu {
+    display: block;
+    position: absolute;
+    width: 120px;
+    top: 10px;
+    right: 10px;
+    
+    border: solid;
+    border-width: 3px;
+    
+    text-align: center;
+    text-decoration: none;
+    
+    border-radius: 15px;
+    padding: 2px 5px ;
+    
+   
+
+}
+.adm{
+    display: block;
+    position: absolute;
+    width: 120px;
+    top: 10px;
+    left: 10px;
+    
+    border: solid;
+    border-width: 3px;
+    
+    text-align: center;
+    text-decoration: none;
+    
+    border-radius: 15px;
+    padding: 2px 5px ;
+}
+form{
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 300px;
+    padding-bottom: 20px;
+    background-color: blanchedalmond;
+}
+
+
+input 
+{
+    background-color:rgb(94, 122, 214);
+    width: 170px;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+       
+    border-radius: 10px;
+    
+}
+.info:hover{
+    
+    width: 190px;
+    border: solid 4px black;
+    transition-duration: 0.4s;
+	transition-property: all;
+    transition-timing-function: line;
+
+}
+
+.name
+{
+    font-family: 'Times New Roman', Times, serif ;
+    color: rgb(97, 97, 184);
+    font-weight: bold ;
+    font-size: 20px;
+}
+
+.mp
+{
+    font-family: 'Times New Roman', Times, serif ;
+    color: rgb(97, 97, 184);
+    font-weight: bold ;
+    font-size: 20px;
+}
+
+.submit
+{
+    color:darkgoldenrod;
+    background-color: rgb(38, 38, 95) ;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    
+}
+.submit:hover{
+    background-color: black;
+    cursor: pointer;
+    width: 110px;
+    border-radius: 15px;
+    
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: line;
+}
+a:hover{
+    background-color: black;
+    font-weight: bold;
+    width: 140px;
+    transition-duration: 0.4s;
+	  transition-property: all;
+  transition-timing-function: line;
+}
